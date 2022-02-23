@@ -1,0 +1,44 @@
+body
+{
+    background-color: #9CEE59;
+}
+#tablazat
+{
+    width: 940px;
+    border-style: none;
+    background-color: #509050;
+    text-align: center;
+    padding: 0px;
+
+}
+#tablazat2
+{
+    width: 940px;
+    text-align: center;
+    border-style: none;
+    background-color: white;
+    padding: 0px;
+}
+
+.sor2
+{
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    
+}
+#noveny
+{
+    text-align: left;
+}
+#irtas
+{
+    text-align: left;
+}
+.kep
+{
+    float: right;
+    border: 1px solid black;
+}
