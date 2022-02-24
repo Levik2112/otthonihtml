@@ -1,0 +1,36 @@
+body
+{
+    background-color: #999999;
+    color: black;
+}
+
+#tablazat
+{
+   background-color: white; 
+   text-align: center;
+   width: 670px;
+   border-style: none;
+}
+#tablazat2
+{
+    width:  670px;
+    text-align: center;
+    vertical-align: middle;
+}
+#tablazat2 td
+{
+    background-color:#485808;
+    
+}
+.papir
+{
+    color: white;
+}
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+  
+  }
