@@ -1,0 +1,29 @@
+body
+{
+    background-color: #C0C0C0 ;
+    color: black;
+}
+a
+{
+    color: white;
+}
+#tablazat
+{
+    width: 1000px;
+    text-align: center;
+   
+    background-color: white;
+}
+.szelso
+{
+    width: 200px;
+}
+#szurke
+{
+    background-color: #C0C0C0 ;
+}
+.auto1
+{
+    vertical-align: top;
+    
+}

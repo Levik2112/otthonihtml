@@ -1,0 +1,340 @@
+body
+{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.m1
+{
+    width: 32px;
+    height: 135px;
+    background-color: white;
+    position: absolute;
+    top: 50.3%;
+    left: 25%;
+    border-radius: 5px;
+    
+  
+}
+.m2
+{
+    width: 32px;
+    height: 135px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    margin-top: -50px;
+    
+
+}
+.mkor
+{
+    
+        width: 32px;
+        height: 135px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 34%;
+        border-radius: 10px;
+        transform: rotate(90deg);
+        margin-top: -54px;
+                        
+}
+
+.m3
+{
+    width: 32px;
+    height: 95px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    border-radius: 5px;
+    margin-top: 2px;
+    position: fixed;
+    
+}
+.m4
+{
+
+    width: 32px;
+    height: 135px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    margin-top: 2px;
+    
+    
+}
+.o1
+{
+    width: 145px;
+    height: 145px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 33.5%;
+    border-radius: 50%;
+    
+}
+.o2
+{
+    width: 85px;
+    height: 85px;
+    background-color:red;
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    border-radius: 50%;
+    
+}
+
+
+.j
+{
+    width: 32px;
+    height: 105px;
+    background-color: white;
+    position: absolute;
+    top: 51.3%;
+    left: 45.9%;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    margin-top: -50px;
+    
+}
+.j2
+{
+    width: 32px;
+    height: 105px;
+    background-color: white;
+    position: absolute;
+    top: 56%;
+    left: 47.8%;
+    border-radius: 5px;
+    margin-top: -50px;
+    
+}
+.jkor
+{
+position: absolute;
+top: 51%;
+left: 42.1%;
+border: 70px solid white;
+border-radius: 55%;
+border-bottom-color: transparent;
+border-left-color: transparent;
+transform: rotate(135deg);
+
+}
+
+.jkor2
+{
+    position: absolute;
+    top: 53.2%;
+    left: 43.45%;
+    border: 42px solid red;
+    border-radius: 55%;
+    transform: rotate(135deg);
+}
+.j3
+{
+    width: 32px;
+    height: 105px;
+    background-color: red;
+    position: absolute;
+    top: 63%;
+    left: 49.3%;
+    border-radius:8px;
+    transform: rotate(90deg);
+    margin-top: -50px;  
+}
+
+.akor
+{
+    position: absolute;
+    top: 49.5%;
+    left: 51%;
+    border: 75px solid white;
+    border-radius: 55%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-135.5deg); 
+}
+.akor2
+{
+    position: absolute;
+    top: 52.5%;
+    left: 52.3%;
+    background-color: red;
+    height: 126px;
+    width: 90px;
+    border-radius: 50% 0 0 ;
+}
+.a3
+{
+    width: 25px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    border-radius: 5px;
+    border-top-left-radius: 15px;
+    
+}
+.a4
+{
+    width: 29px;
+    height: 55px;
+    background-color: white;
+    position: absolute;
+    top: 48.2%;
+    left: 55.3%;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    
+}
+
+.a5
+{
+    width: 25px;
+    height: 148px;
+    background-color: white;
+    position: absolute;
+    top: 50.3%;
+    left: 56.2%;
+    border-radius: 5px;
+}
+
+.a6
+{
+    width: 32px;
+    height: 45px;
+    background-color: red;
+    position: absolute;
+    top: 53.8%;
+    left: 56.9%;
+    border-radius:8px;
+    transform: rotate(90deg);
+    margin-top: -50px;
+}
+
+.a7
+{
+    width: 25px;
+    height: 75px;
+    background-color: white;
+    position: absolute;
+    top: 55.5%;
+    left: 54.9%;
+    border-radius: 5px;
+    transform: rotate(90deg);
+}
+.n
+{
+    width: 28px;
+    height: 155px;
+    background-color: white;
+    position: absolute;
+    top: 49.5%;
+    left: 59%;
+    border-radius: 5px;
+}
+.n2
+{
+    width: 28px;
+    height: 125px;
+    background-color: white;
+    position: absolute;
+    top: 44.5%;
+    left: 61.6%;
+    border-radius: 5px;
+    transform: rotate(90deg);
+}
+.n3
+{
+    width: 28px;
+    height: 153px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 64%;
+    border-radius: 5px;
+ 
+}
+.n4
+{
+    width: 28px;
+    height: 125px;
+    background-color: red;
+    position: absolute;
+    top: 44.4%;
+    left: 66.8%;
+    border-radius: 8px;
+    transform: rotate(90deg);
+}
+.g
+{
+    width: 25px;
+    height: 65px;
+    background-color: white;
+    position: absolute;
+    top: 48.4%;
+    left: 71.5%;
+    border-radius: 5px;
+    transform: rotate(90deg); 
+}
+.g2
+{
+    position: absolute;
+    top: 50.5%;
+    left: 67%;
+    border: 75px solid white;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-135.5deg);
+}
+.g3
+{
+    
+    position: absolute;
+    top: 53%;
+    left: 68.5%;
+    border: 50px solid red;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-135.5deg);
+}
+.g4
+{
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    position: absolute;
+    top: 59.2%;
+    left: 70.7%;
+    border-radius: 5px;
+}
+.g5
+{
+    width: 25px;
+    height: 65px;
+    background-color: red;
+    position: absolute;
+    top: 63%;
+    left: 71.2%;
+    border-radius: 8px;
+
+}
