@@ -14,16 +14,16 @@
 <h2 class="ritka">Eredete</h2>
 <p>A húsvétot megelőző nagyböjt 40 napos böjtölést lezárandó a vasárnapi asztalra már bőségesen kerülhetett étel. Ezeket az ételeket mind a római katolikusok, mind a görög katolikusok vasárnap délelőtt a templomba vitték, hogy felszenteljék. Régebben hatalmas batyukba tették az ételt és mindent elvittek a templomba, hogy megszentelhessék, majd csak egy-egy darabot vágtak a kenyérből vagy kalácsból, a sonkából és a sárgatúróból is. A jellegzetes húsvéti kalácsot pászkának is hívták, innen a 'pászkaszentelés' összefoglaló név, amely később minden húsvéti étel szentelésére vonatkozott. A sárgatúró eredetileg a görög katolikusok étke, de azokon a vidékeken a római katolikusok is ismerik, és szívesen készítik, de csak húsvétkor. Ez adja az étel ünnepélyes jellegét.</p>
 
-<h2 class="ritka"> A sárgatúró receptje <input type="number"  id="szamolo" min="1"  value="1"   >  főre:</h2>
+<h2 class="ritka"> A sárgatúró receptje <input type="number"  id="input" min="1"   onchange="myFunction()"  >  főre:</h2>
 
 
 <h3 class="ritka">Hozzávalók:</h3>
 
 
 <ul> 
-<li id="demo">0.2 l tej l tej</li>
+<li id="demo">0.2  l tej</li>
 <li id="demo2">2 db tojás db tojás</li>
-<li id="demo3">1 ek kristálycukor ek kristálycukor</li>
+<li id="demo3">1 ek kristálycukor </li>
 </ul>
    
 <h3 class="ritka">Elkészítés:</h3>
@@ -38,25 +38,21 @@
     
 </div>
 <script>
+function myFunction() {
+szamolo = parseInt(document.getElementById("input").value);
+tej = 0.2;
+tojas = 2;
+cukor = 1;
 
-let a = document.getElementById("szamolo").value;
-let z = 0.2;
-let y = z * a 
-document.getElementById("demo").innerHTML = y;
-let g = document.getElementById("szamolo").value;
-let b = 2;
-let u = b * g ;
-document.getElementById("demo2").innerHTML = u;
-let m = document.getElementById("szamolo").value;
-let n = 1;
-let p = n * m ;
-document.getElementById("demo3").innerHTML = p;
-
-
-
-
-
-    
+if ( szamolo > 1 ) {
+				tej = document.getElementById("demo").innerHTML = tej * (szamolo);
+            }  if ( szamolo > 1 ) {
+              tojas = document.getElementById("demo2").innerHTML = tojas * (szamolo);
+            }  if ( szamolo > 1) {
+              cukor = document.getElementById("demo3").innerHTML = cukor * (szamolo) ;
+            }
+}
+Math.round()
     </script>
 </body>
-</html>
+</html> 
