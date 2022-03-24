@@ -1,56 +1,59 @@
-
-
-body    
+body
 {
-    background-color: red;  
- 
+    background-color: red;
+    width: 100%;
+    height: 100%;
+
 }
 
 
+div
+{
+    position: absolute;
+}
 
-
+    
 .m1
 {
     width: 32px;
     height: 135px;
-    background-color: white;
-    position: fixed;
-    top: 50.3%;
-    left: 25%;  
+    background-color:  white;
     border-radius: 5px;
-    position: fixed;
-   
-    
-  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+      
 }
 .m2
 {
     width: 32px;
     height: 135px;
-    background-color: white;
-    position: fixed;
-    top: 50%;
-    left: 28%;
+    background-color:  white;
+    left: 4%;
+    top: -4.5%;
     border-radius: 5px;
     transform: rotate(90deg);
-    margin-top: -50px;
-    position: fixed;
+    position: absolute;
+    top: -55px;
+    
 
 
 }
 .mkor
 {
     
-        width: 32px;
+        width: 42px;
         height: 135px;
         background-color: red;
-        position: fixed;
-        top: 50%;
-        left: 34%;
+        position: absolute;
+        left: 9%;
         border-radius: 10px;
         transform: rotate(90deg);
-        margin-top: -54px;
-        position: fixed;  
+        position: absolute;  
+        top: -55px;
+        left: 175px;
+      
 }
      
 
@@ -58,13 +61,11 @@ body
 {
     width: 32px;
     height: 95px;
-    background-color: white;
-    position: fixed;
-    top: 50%;
-    left: 28%;
+    background-color:  white;
     border-radius: 5px;
-    margin-top: 2px;
-    position: fixed;
+    position: absolute;
+    top: 0px;
+    left: 55px;
  
 }
 .m4
@@ -72,26 +73,24 @@ body
 
     width: 32px;
     height: 135px;
-    background-color: white;
-    position: fixed;
-    top: 50%;
-    left: 31%;
+    background-color:  white;
     border-radius: 5px;
     border-top-right-radius: 25px;
     margin-top: 2px;
-    position: fixed;
+    position: absolute;
+    top: 0px;
+    left: 117px;
     
 }
 .o1
 {
     width: 145px;
     height: 145px;
-    background-color: white;
-    position: fixed;
-    top: 50%;
-    left: 33.5%;
+    background-color:  white;
     border-radius: 50%;
-    position: fixed;
+    position: absolute;
+    top: 7px;
+    left: 9%;
    
 }
 
@@ -100,11 +99,10 @@ body
     width: 85px;
     height: 85px;
     background-color:red;
-    position: fixed;
-    top: 53%;
-    left: 35%;
     border-radius: 50%;
-    position: fixed;
+    position: absolute;
+    top: 35px;
+    left: 10.5%;
     
 }
 
@@ -113,122 +111,129 @@ body
 {
     width: 32px;
     height: 105px;
-    background-color: white;
-    position: fixed;
-    top: 51.3%;
-    left: 45.9%;
+    background-color:  white;
     border-radius: 5px;
     transform: rotate(90deg);
     margin-top: -50px;
-    position: fixed;
+    position: absolute;
+    top: 18px;
+    left: 22.1%;
+
 }
 .j2
 {
     width: 32px;
     height: 105px;
-    background-color: white;
-    position: fixed;
-    top: 56%;
-    left: 47.8%;
+    background-color:  white;
+    position: absolute;
+    left: 24%;
+    top: 6%;
     border-radius: 5px;
     margin-top: -50px;
-    position: fixed;
+    position: absolute;
+    top: 60px;
 }
 .jkor
 {
-position: fixed;
-top: 51%;
-left: 42.1%;
-border: 70px solid white;
+position: absolute;
+left: 18.4%;
+border: 70px solid  white;
 border-radius: 55%;
 border-bottom-color: transparent;
 border-left-color: transparent;
 transform: rotate(135deg);
-position: fixed;
+position: absolute;
+top: 15px;
 }
 
 .jkor2
 {
-    position: fixed;
-    top: 53.2%;
-    left: 43.45%;
+    position: absolute;
+    left: 19.65%;
+    top: 3.8%;
     border: 42px solid red;
     border-radius: 55%;
     transform: rotate(135deg);
-    position: fixed;
+    position: absolute;
+    top: 36px;
 }
 .j3
 {
     width: 32px;
     height: 105px;
     background-color: red;
-    position: fixed;
-    top: 63%;
-    left: 49.3%;
+    position: absolute;
     border-radius:8px;
     transform: rotate(90deg);
     margin-top: -50px; 
-    position: fixed; 
+    position: absolute; 
+    top: 121px;
+    left: 25.5%;
 }
 
 .akor
 {
-    position: fixed;
-    top: 49.5%;
-    left: 51%;
-    border: 75px solid white;
+    left: 26.957%;
+    border: 75px solid  white;
     border-radius: 55%;
     border-bottom-color: transparent;
     border-left-color: transparent;
     transform: rotate(-135.5deg); 
-    position: fixed;
+    position: absolute;
+    left: 26.957%;
+    top: 8px;
 }
 .akor2
 {
-    position: fixed;
-    top: 52.5%;
-    left: 52.3%;
+ 
+    top: 4%;
     background-color: red;
     height: 126px;
     width: 90px;
     border-radius: 50% 0 0 ;
-    position: fixed;
+    position: absolute;
+    left: 28.25%;
+    top: 39px;
+
 }
 .a3
 {
-    width: 25px;
-    height: 100px;
-    background-color: white;
-    position: fixed;
-    top: 55%;
-    left: 51%;
+    width: 35px;
+    height: 95px;
+    background-color:  white;
+   
+    top: 5.5%;
+    border-top-left-radius: 50%;
     border-radius: 5px;
     border-top-left-radius: 15px;
-    position: fixed;
+    position: absolute;
+    left: 27.02%;
+    top: 5.5%;
+    
 }
 .a4
 {
-    width: 29px;
+    width: 31px;
     height: 55px;
-    background-color: white;
-    position: fixed;
-    top: 48.2%;
-    left: 55.3%;
+    background-color:  white;
+    position: absolute;
+    left: 31%;
+    top: -0.4%;
     border-radius: 5px;
     transform: rotate(90deg);
-    position: fixed;
+    position: absolute;
 }
 
 .a5
 {
-    width: 25px;
-    height: 148px;
-    background-color: white;
-    position: fixed;
-    top: 50.3%;
-    left: 56.2%;
+    width: 33px;
+    height: 140px;
+    background-color:  white;
+    position: absolute;
+    top: 1%;
+    left: 32.5%;
     border-radius: 5px;
-    position: fixed;
+    position: absolute;
 }
 
 .a6
@@ -236,131 +241,139 @@ position: fixed;
     width: 32px;
     height: 45px;
     background-color: red;
-    position: fixed;
-    top: 53.8%;
-    left: 56.9%;
+    position: absolute;
+    left: 33.4%;
+    top: 0.1%;
     border-radius:8px;
     transform: rotate(90deg);
-    margin-top: -50px;
-    position: fixed;
+    position: absolute;
 }
 
 .a7
 {
     width: 25px;
     height: 75px;
-    background-color: white;
-    position: fixed;
-    top: 55.5%;
-    left: 54.9%;
+    background-color:  white;
+    position: absolute;
+    left: 31.5%;
+    top: 5% ;
     border-radius: 5px;
     transform: rotate(90deg);
-    position: fixed;
+    position: absolute;
 }
 
 .n
 {
     width: 28px;
-    height: 155px;
-    background-color: white;
-    position: fixed;
-    top: 49.5%;
-    left: 59%;
+    height: 145px;
+    background-color:  white;
+    position: absolute;
+    left: 37%;
     border-radius: 5px;
-    position: fixed;
+    position: absolute;
 }
 .n2
 {
     width: 28px;
     height: 125px;
-    background-color: white;
-    position: fixed;
-    top: 44.5%;
-    left: 61.6%;
+    background-color:  white;
+    position: absolute;
+    left: 40%;
+    top: -4.2%;
     border-radius: 5px;
     transform: rotate(90deg);
-    position: fixed;
+    position: absolute;
 }
 .n3
 {
     width: 28px;
-    height: 153px;
-    background-color: white;
-    position: fixed;
-    top: 50%;
-    left: 64%;
+    height: 145px;
+    background-color:  white;
+    position: absolute;
+    left: 43%;
     border-radius: 5px;
-    position: fixed;
+    position: absolute;
 }
 .n4
 {
-    width: 28px;
+    width: 39px;
     height: 125px;
     background-color: red;
-    position: fixed;
-    top: 44.4%;
-    left: 66.8%;
+    position: absolute;
+    left: 45.7%;
+    top: -4%;
     border-radius: 8px;
     transform: rotate(90deg);
-    position: fixed;
+    position: absolute;
 }
 .g
 {
-    width: 25px;
+    width: 24.5px;
     height: 65px;
-    background-color: white;
-    position: fixed;
-    top: 48.4%;
-    left: 71.5%;
+    background-color:  white;
+    position: absolute;
+    left: 51.5%;
+    top: -1.186%;
     border-radius: 5px;
     transform: rotate(90deg); 
-    position: fixed;
+    position: absolute;
 }
 .g2
 {
-    position: fixed;
-    top: 50.5%;
-    left: 67%;
-    border: 75px solid white;
+    position: absolute;
+    left: 47%;
+    border: 75px solid  white;
     border-radius: 50%;
     border-bottom-color: transparent;
     border-left-color: transparent;
     transform: rotate(-135.5deg);
-    position: fixed;
+    margin-top: 0.5px;
+    position: absolute;
 }
 .g3
 {
     
-    position: fixed;
-    top: 53%;
-    left: 68.5%;
+    position: absolute;
+    left: 48.35%;
+    top: 3.5%;
     border: 50px solid red;
     border-radius: 50%;
     border-bottom-color: transparent;
     border-left-color: transparent;
     transform: rotate(-135.5deg);
-    position: fixed;
+    position: absolute;
 }
 .g4
 {
     width: 65px;
     height: 65px;
-    background-color: white;
-    position: fixed;
-    top: 59.2%;
-    left: 70.7%;
+    background-color:  white;
+    position: absolute;
+    left: 50.6%;
+    top:9.7%;
     border-radius: 5px;
-    position: fixed;
+    position: absolute;
 }
 .g5
 {
     width: 25px;
     height: 65px;
     background-color: red;
-    position: fixed;
-    top: 63%;
-    left: 71.2%;
+    position: absolute;
+    left: 50%;
+    top: 7%;
     border-radius: 8px;
-    position: fixed;
+    position: absolute;
 
+}
+.g6
+{
+    width: 25px;
+    height: 65px;
+    background-color: red;
+    position: absolute;
+    left: 51.5%;
+    top: 14%;
+    border-radius: 8px;
+    position: absolute;   
 }
