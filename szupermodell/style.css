@@ -15,21 +15,22 @@
  }
  /*
 /* flex*/
-/*
+
 #middle
 {
     display: flex;
 }
 nav { flex-basis: 50%; order: 2; }
 section { flex-basis: 75%; order: 1; }
-/*
 
-/* Grid */
+
+/* Grid 
 #middle
 {
     display: grid;
     grid-template-columns: 25% 75%;
 }
+/*
 
 /* színek*/
 header,footer
@@ -90,9 +91,10 @@ article img
     float: right;
     margin: 5px;
 }
-
-
-
-
-
-
+#gomb
+{
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   animation: forwards;
+}
