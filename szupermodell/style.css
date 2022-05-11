@@ -98,3 +98,16 @@ article img
    border-radius: 50px;
    animation: forwards;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+    @media only screen and (min-width: 700px) {
+        body {
+          background-color: blue;
+        }
+        @media only screen and (max-width: 600px) {
+            body {
+              background-color: red;
+            }
+
