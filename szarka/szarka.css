@@ -1,0 +1,32 @@
+body
+{
+    background-color: #F0F8FF;
+    color: #00008B;
+}
+h2
+{
+    color: #DC143C;
+}
+a
+{
+    color: #DC143C;
+}
+img
+{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+}
+hr
+{
+    width: 70%;
+}
+table
+{
+    width: 400px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
