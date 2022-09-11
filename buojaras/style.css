@@ -1,0 +1,16 @@
+body
+{
+    background-color: rgb(173, 56, 56);
+    color: blue;
+}
+
+input
+{
+    margin-top: 111px;
+}
+
+#gomb
+{
+    margin-right: 111px;
+    color: blueviolet;
+}
