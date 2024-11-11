@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+ #cim{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+}
+.fejlec{
+    z-index: -1;
+    background-color: goldenrod;
+    margin-top: -101px;
+    margin-left: -11px;
+    width: 1920px;
+    height: 100px;
+}
+.opciok{
+    color: white;
+    display: inline-block;
+    font-size: xx-large;
+    margin-right: 20px;  
+    margin-left: 15px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.opciok.aktivalva {
+    color: black;             
+}
+.opciok:hover {
+    background-color: #ddd;
+}
+a{
+    text-decoration: none;
+}
+
+.aktualis {
+    font-weight: bold;
+    color: black;
+    text-decoration: none; 
+}
+
+#tartalom{
+    margin-top: 150px;
+    width: 500px;
+    height: 500px;
+}
+#tartalom p{
+    color: white;
+}
